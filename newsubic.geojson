@@ -20482,7 +20482,7 @@
           ],
           [
             120.26427542682701,
-            14.802478482505059
+            14.802478482505055
           ],
           [
             120.26426962814396,
@@ -29988,7 +29988,7 @@
           ],
           [
             120.26288493875344,
-            14.803272389346365
+            14.803272389346361
           ],
           [
             120.26287749362382,
@@ -35113,7 +35113,7 @@
           ],
           [
             120.26427542682701,
-            14.802478482505059
+            14.802478482505055
           ],
           [
             120.26426962814396,
@@ -37998,12 +37998,15 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-symbol": "",
         "type": "Stop",
-        "label": "keep4",
+        "label": "S0",
         "nodeid": 229,
-        "next_nodes": "[230]",
-        "prev_nodes": "[228]",
+        "next_nodes": [
+          230
+        ],
+        "prev_nodes": [
+          228
+        ],
         "marker-size": "small",
         "marker-color": "#00ffff"
       },
@@ -38392,6 +38395,29 @@
     {
       "type": "Feature",
       "properties": {
+        "type": "Stop",
+        "label": "S1",
+        "nodeid": 2008,
+        "next_nodes": [
+          2009
+        ],
+        "prev_nodes": [
+          2007
+        ],
+        "marker-size": "small",
+        "marker-color": "#00ffff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.26143710144153,
+          14.802418342583698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "type": "Stop Sign",
         "nodeid": 2038,
         "next_nodes": [
@@ -38480,6 +38506,29 @@
     {
       "type": "Feature",
       "properties": {
+        "type": "Stop",
+        "label": "S2",
+        "nodeid": 2452,
+        "next_nodes": [
+          2453
+        ],
+        "prev_nodes": [
+          2451
+        ],
+        "marker-size": "small",
+        "marker-color": "#00ffff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.26223071672625,
+          14.80243476534606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "type": "Stop Sign",
         "nodeid": 2521,
         "next_nodes": [
@@ -38524,12 +38573,15 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-symbol": "",
         "type": "Stop",
-        "label": "keep1",
+        "label": "S3",
         "nodeid": 2644,
-        "next_nodes": "[2645]",
-        "prev_nodes": "[2643]",
+        "next_nodes": [
+          2645
+        ],
+        "prev_nodes": [
+          2643
+        ],
         "marker-size": "small",
         "marker-color": "#00ffff"
       },
@@ -38538,6 +38590,29 @@
         "coordinates": [
           120.26617471080527,
           14.80272428036017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Stop",
+        "label": "S4",
+        "nodeid": 2978,
+        "next_nodes": [
+          2979
+        ],
+        "prev_nodes": [
+          2977
+        ],
+        "marker-size": "small",
+        "marker-color": "#00ffff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.26349149500825,
+          14.804825437528422
         ]
       }
     },
@@ -38632,6 +38707,29 @@
     {
       "type": "Feature",
       "properties": {
+        "type": "Stop",
+        "label": "S5",
+        "nodeid": 3328,
+        "next_nodes": [
+          3329
+        ],
+        "prev_nodes": [
+          3327
+        ],
+        "marker-size": "small",
+        "marker-color": "#00ffff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.26301084088261,
+          14.804658845977347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "type": "Stop Sign",
         "nodeid": 3530,
         "next_nodes": [
@@ -38720,26 +38818,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-symbol": "",
-        "type": "Stop",
-        "label": "keep6",
-        "nodeid": 3927,
-        "next_nodes": "[3928]",
-        "prev_nodes": "[3926]",
-        "marker-size": "small",
-        "marker-color": "#00ffff"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.26488393581708,
-          14.799365564602303
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "type": "Stop Sign",
         "nodeid": 3948,
         "next_nodes": [
@@ -38807,7 +38885,7 @@
       "type": "Feature",
       "properties": {
         "type": "Stop",
-        "label": "S3",
+        "label": "S6",
         "nodeid": 4235,
         "next_nodes": [
           4236
@@ -38874,7 +38952,7 @@
       "type": "Feature",
       "properties": {
         "type": "Stop",
-        "label": "S4",
+        "label": "S7",
         "nodeid": 4456,
         "next_nodes": [
           4457
@@ -38918,11 +38996,14 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-symbol": "circle",
         "type": "Stop Sign",
         "nodeid": 4680,
-        "next_nodes": "[9]",
-        "prev_nodes": "[4679]",
+        "next_nodes": [
+          9
+        ],
+        "prev_nodes": [
+          4679
+        ],
         "marker-size": "small",
         "marker-color": "#ff0000"
       },
@@ -38937,12 +39018,15 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-symbol": "",
         "type": "Stop",
-        "label": "keep2",
+        "label": "S8",
         "nodeid": 4817,
-        "next_nodes": "[4818]",
-        "prev_nodes": "[4816]",
+        "next_nodes": [
+          4818
+        ],
+        "prev_nodes": [
+          4816
+        ],
         "marker-size": "small",
         "marker-color": "#00ffff"
       },
@@ -39156,7 +39240,7 @@
       "type": "Feature",
       "properties": {
         "type": "Stop",
-        "label": "S6",
+        "label": "S9",
         "nodeid": 6516,
         "next_nodes": [
           6517
@@ -39333,7 +39417,7 @@
       "type": "Feature",
       "properties": {
         "type": "Stop",
-        "label": "S7",
+        "label": "S10",
         "nodeid": 7234,
         "next_nodes": [
           7235
@@ -39361,8 +39445,8 @@
         "next_nodes": "[7236]",
         "prev_nodes": "[7234]",
         "marker-size": "small",
-        "marker-color": "#0000a0",
-        "label": "keep7"
+        "marker-color": "#ff0000",
+        "label": "shit"
       },
       "geometry": {
         "type": "Point",
@@ -39441,12 +39525,15 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-symbol": "",
         "type": "Stop",
-        "label": "meet2",
+        "label": "S11",
         "nodeid": 7427,
-        "next_nodes": "[7428]",
-        "prev_nodes": "[7426]",
+        "next_nodes": [
+          7428
+        ],
+        "prev_nodes": [
+          7426
+        ],
         "marker-size": "small",
         "marker-color": "#00ffff"
       },
@@ -39528,7 +39615,7 @@
       "type": "Feature",
       "properties": {
         "type": "Stop",
-        "label": "S9",
+        "label": "S12",
         "nodeid": 7708,
         "next_nodes": [
           7709
@@ -39664,12 +39751,44 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "label": "keep8"
+        "label": "shit"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.26288151741029,
+          120.26407241821289,
+          14.804311805249265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "label": "shit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.263911485672,
+          14.804135469560462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "label": "shit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2628493309021,
           14.800836928477592
         ]
       }
@@ -39680,13 +39799,13 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "label": "keep9"
+        "label": "shit"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.26108980178833,
-          14.80232024089704
+          120.2669531106949,
+          14.801718618901141
         ]
       }
     },
@@ -39696,13 +39815,13 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "label": "keep10"
+        "label": "shit"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.26222705841063,
-          14.802340986453334
+          120.26487171649933,
+          14.799338046530101
         ]
       }
     },
@@ -39712,61 +39831,13 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "label": "keep11"
+        "label": "shit"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.26421189308168,
-          14.804218451078944
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "label": "keep12"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.26402950286865,
-          14.804062860705743
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "label": "keep"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.2630317211151,
-          14.804664476196594
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "label": "keep"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.26693701744078,
-          14.80171343249736
+          120.26104152202606,
+          14.802309868118142
         ]
       }
     }
